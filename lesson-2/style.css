@@ -1,0 +1,45 @@
+.block{
+    width: 1200px;
+    height: 100px;
+    background-color: brown;
+}
+
+/* Фиксированная верстка */
+.block__item {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+/* резированная верстка */
+/* % -  */
+/* .block__item{
+    width: 50%;
+    height: 10%;
+    background-color: chartreuse;
+} */
+
+/* адаптивная верстка */
+div{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    color: white;
+    margin: 15px;
+}
+
+@media all and (max-width: 800px) {
+   .first {
+    display: none;
+   }
+    .second{
+        display: none;
+        background-color: gold;
+    }
+    .third{
+        display: none;
+    }
+    .fourth{
+        display: none;
+    }
+}
